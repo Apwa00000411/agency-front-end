@@ -1,0 +1,21 @@
+.testimonials {
+  background-image: url(../img/test_bg.jpg);
+  background-size: cover;
+
+  padding: 5rem 30rem;
+
+  width: 100vw;
+  max-height: 90vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  &__pic {
+    img {
+      margin-top: 5rem;
+    }
+  }
+}
